@@ -1,0 +1,54 @@
+body{
+    background: #eee;
+}
+#reg110{
+    background: rgb(225 225 225);
+    width: 376px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:rgb(151, 151, 151);
+    font-style: oblique;
+}
+#reg111{
+    margin-left: 85px ;
+    margin-top: 50px;
+    font-size: larger;
+}
+#reg112{
+    margin-left: 130px ;
+    background-color: #1830bb;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#reg112:hover, #reg112:active {
+    background-color: red;
+  }
+#reg120{
+    background: rgb(225 225 225);
+    width: 376px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:darkgray;
+}
+#Email{
+    margin-left: 50px;
+}
+#password{
+    margin-left: 27px;
+}
+#username{
+    margin-left: 25px;
+}
+#button{
+    margin-left: 150px;
+}

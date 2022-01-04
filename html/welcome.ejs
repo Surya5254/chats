@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>chat-room</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <link rel="stylesheet" type="text/css" href="/styleForChat.css">
+    </head>
+    <body>
+        <div id="cr110">
+            <div id='username'><p><%= userName %></p></div>
+            <p id="cr111">| Welcome To SD-Chat | </p> 
+            <div id="chat-window">
+                <div id="output"></div>
+                <div id="feedback"></div>
+            </div>
+            <input id="message" type="text" placeholder="Message" />
+            <button id="send">Send</button>
+            
+        </div>
+        
+    </body>
+    <script src="/chat.js"></script>
+</html>

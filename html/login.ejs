@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="/styleForLogin.css">
+    </head>
+    <body>
+        <div id="log110">
+            <p id="log111">| Welcome To SD-Chat |</p>
+            <a href="/register"id="log112">Register</a>
+            <p><%= error %></p>
+        </div>
+        <div id="log120">
+            <form class="aa" action="/Login" method="post">            
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" name="Email"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <button id="button">Login</button>
+              </form>
+        </div>
+        
+    </body>
+</html>

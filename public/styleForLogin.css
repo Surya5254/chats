@@ -1,0 +1,51 @@
+body{
+    background: #eee;
+}
+#log110{
+    background: rgb(225 225 225);
+    width: 376px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:rgb(151, 151, 151);
+    font-style: oblique;
+}
+#log111{
+    margin-left: 75px ;
+    margin-top: 50px;
+    font-size: larger;
+}
+#log112{
+    margin-left: 120px ;
+    background-color: #1830bb;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#log112:hover, #log112:active {
+    background-color: red;
+  }
+#log120{
+    background: rgb(225 225 225);
+    width: 376px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:darkgray;
+}
+#Email{
+    margin-left: 50px;
+}
+#password{
+    margin-left: 27px;
+}
+#button{
+    margin-left: 150px;
+}
